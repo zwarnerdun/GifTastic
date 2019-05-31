@@ -1,0 +1,16 @@
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+}
+
+body{
+    background-image: url("../images/Gir.png");
+}
+
+.btn-primary{
+    background: red;
+    border: red;
+}
+
+
+
