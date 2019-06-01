@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="text/javascript" src="assets/javascript/giphy.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
@@ -16,13 +15,21 @@
         <br/>
         <br/>
         <br/>
-        <form class="form-inline">
+        <div id ="cartoon buttons"></div>
+        <br/>
+        <br/>
+        <form class="cartoon form-inline">
             <div class="form-group mx-sm-3 mb-2">
-              <label for="inputPassword2" class="sr-only">Search</label>
-              <input type="Search" class="form-control" id="inputSearch2" placeholder="Search">
+              <label id="add" for="cartooninput" class="sr-only">Favorite Cartoon</label>
+              <input type="text" class="form-control" id="cartooninput" placeholder="Favorite Cartoon">
             </div>
             <button type="submit" class="btn btn-primary mb-2">Pick Me!</button>
         </form>
+        <br/>
+        <br/>
+        <div id="cartoons"> </div>
     </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/giphy.js"></script>
 </body>
 </html>
