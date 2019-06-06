@@ -10,7 +10,12 @@ body{
 .btn-primary{
     background: red;
     border: red;
+    margin: 10px;
+    border-radius: 12px;
 }
+
+
+
 
 
 
