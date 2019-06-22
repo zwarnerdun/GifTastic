@@ -2,7 +2,7 @@
  https://zwarnerdun.github.io/GifTastic/
  
  
-Problem: For the project the problems I faced were separating my buttons and getting my giphys to upload.
+Problem: For this project the problems I faced were separating my buttons and getting my giphys to upload.
 
 
 Solution: My solution was pretty easy for the separation for the buttons which was to add a margin to separate them in the buttons class. As for my giphys rendering, I had to correctly store my queryurl and type in the correct api key. My api key was missing a couple characters causing my code to not work.
