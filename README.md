@@ -7,6 +7,8 @@ Enter a term into the search box. As you enter terms into the search box, button
 
 # Deployment
 Here's the link to try it out: https://zwarnerdun.github.io/GifTastic/
+
+ ![giftastic](https://user-images.githubusercontent.com/49568886/64914733-0e963e80-d725-11e9-837f-a627d412d936.PNG)
  
 # Overview
 Problem: For this project the problems I faced were separating my buttons and getting my giphys to upload.
